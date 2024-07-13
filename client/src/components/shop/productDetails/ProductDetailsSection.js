@@ -242,13 +242,13 @@ const ProductDetailsSection = (props) => {
                   </svg>
                   <span className="text-sm font-medium text-gray-700">
                     {/* {sProduct.pRatingsReviews.rating} */}
-                    4.5
+                    4 
                   </span>
                   <span class="w-1 h-1 mx-1.5 bg-gray-500 rounded-full dark:bg-gray-400"></span>
                 </div>
                 <span className="text-sm font-medium text-gray-700">
-                  200 Reviews
-                  {/* {sProduct.pRatingsReviews.reviews} */}
+                  1 Review
+                  {sProduct.pRatingsReviews.reviews}
                 </span>
               </div>
               <div className="flex items-center space-x-2 pt-2">
@@ -258,7 +258,7 @@ const ProductDetailsSection = (props) => {
                   </span>
                 </div>
                 <a className="text-lg text-gray-700" href="/">
-                  {/* {sProduct.pCompany} */} Jagannath Bio Tech Pvt. Ltd.
+                  {/* {sProduct.pCompany} */} B. Bio Tech Pvt. Ltd.
                 </a>
                 <span className="text-lg text-yellow-700">Best Seller</span>
               </div>
@@ -499,7 +499,7 @@ const ProductDetailsSection = (props) => {
 
                 <div class="w-24">
                   <img src={agricomDelivered} alt="" />
-                  <span>AgriCom Delivered</span>
+                  <span>AgroMart Delivered</span>
                 </div>
 
                 <div class="w-24">

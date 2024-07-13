@@ -175,7 +175,7 @@ const CartModal = () => {
                       cartModalOpen();
                     }}
                   >
-                    Checkout ${data.cartTotalCost}
+                    Checkout ₹{data.cartTotalCost}
                   </div>
                 ) : (
                   <div
